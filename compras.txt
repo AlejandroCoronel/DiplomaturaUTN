@@ -3,3 +3,4 @@ manzanas
 cerveza
 vino tinto
 manteca
+mayonesa
