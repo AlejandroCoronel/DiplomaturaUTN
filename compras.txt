@@ -4,3 +4,4 @@ cerveza
 vino tinto
 manteca
 mayonesa
+yogurt
