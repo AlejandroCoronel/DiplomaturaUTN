@@ -1,0 +1,14 @@
+h1,h2,h3,h4{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+img{
+    
+    align-content: center;
+}
+p{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
