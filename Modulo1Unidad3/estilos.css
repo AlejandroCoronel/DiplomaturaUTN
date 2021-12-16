@@ -1,14 +1,21 @@
 h1,h2,h3,h4{
     text-align: center;
-    color: aliceblue;
+}
+
+h2,h3,h4{
+    color:white;
     background-color: black;
 }
 
-img{
-    
+div{
+    background-color: bisque;
+}
+img{  
     align-content: center;
 }
+
 p{
     color: red;
     font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
 }
