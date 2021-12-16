@@ -16,12 +16,10 @@ div{
     border-style: solid;
     padding: 50px;
 }
-img{  
-    align-content: center;
-}
 
 p{
     color: red;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+    font-size: 22px;
 }

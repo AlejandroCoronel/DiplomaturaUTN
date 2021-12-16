@@ -16,6 +16,10 @@
             <label for="ape">Apellido</label>
             <input type="text" name="Apellido" placeholder="apellido">
         </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass">
+        </p>
         <label for="sexo">Sexo</label>
         <ul>
             <li>
@@ -27,6 +31,42 @@
                 <label for="">mujer</label>
             </li>
         </ul>
+        <label for="">Hobbies</label>
+        <ul>
+            <li>
+                <input type="checkbox" name = "hobbies[]" values = "futbol" id="futbol">
+                <label for="futbol">Jugar futbol</label>
+            </li>
+            <li>
+                <input type="checkbox" name = "hobbies[]" values = "correr" id="correr">
+                <label for="correr">Correr</label>
+            </li>
+            <li>
+                <input type="checkbox" name = "hobbies[]" values = "musica" id="musica">
+                <label for="musica">Escuchar música</label>
+            </li>
+            <li>
+                <input type="checkbox" name = "hobbies[]" values = "tele" id="tele">
+                <label for="tele">Ver la tele</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">Título</label>
+            <select name="titulo" id="">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
     </form>
 </body>
 </html>
