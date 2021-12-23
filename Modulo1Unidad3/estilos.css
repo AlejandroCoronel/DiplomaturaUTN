@@ -1,31 +1,29 @@
+/*font-family: 'Imperial Script', cursive;
+font-family: 'Oswald', sans-serif;*/
 header{
     text-align: right;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(253,29,29,1) 76%);
 }
-h1,h2,h3,h4{
-    text-align: center;
+h1{
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
 }
 
 h2,h3,h4{
     color:white;
     background-color: black;
+    text-align: center;
 }
 
 div{
     background-color: bisque;
     text-align: center;
     border-style: solid;
-    padding: 50px;
-    
+    padding: 25px;
 }
 
-p{
-    color:green;
-    font-family: Arial;
-    font-style: italic;
-    font-size: 22px;
-}
 #contacto{
     font-size: 35px;
     background-color: green;
@@ -41,6 +39,25 @@ a:hover{
     background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    padding: 50px;
+    padding: 20px;
     width: fit-content;
 }
+.estilodelheader{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+     background: #959595; /* Old browsers */
+     background: -moz-linear-gradient(-45deg,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(-45deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(135deg,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     padding: 5px;
+     margin-bottom: 20px;
+ }
+ .redondearimg{
+     border-radius: 25px;
+ }
+ .parrafoencolumnas{
+     column-count: 3;
+     color:grey;
+     font-family: 'Imperial Script', cursive;
+     font-size: 22px;
+ }
