@@ -51,6 +51,7 @@ a:hover{
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
      padding: 5px;
      margin-bottom: 20px;
+     display: flex;
  }
  .redondearimg{
      border-radius: 25px;
